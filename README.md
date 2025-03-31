@@ -1,2 +1,2 @@
-# 4604031-programacion-estructurada-25i-practica-3
+# Práctica 3: Diseño modular
 Plantilla para el ejercicio de la práctica 3
