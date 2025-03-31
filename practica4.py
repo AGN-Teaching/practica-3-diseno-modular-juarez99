@@ -3,7 +3,7 @@ Programa: practica4.py
 Autora:
 
 Lee el texto de un archivo y usa el módulo legibilidad
-para calcular el índice de Fernandez Huerta y para
+para calcular el índice de Velázquez Gaytán y para
 decidir el nivel de legibilidad del texto.
 """
 
@@ -21,8 +21,8 @@ def leer_texto():
 
 def mostrar_resultados(indice, nivel, oraciones, palabras, silabas):
     """Muestra en pantalla el resultado del análisis de un texto, de acuerdo
-    con el índice de Fernández Huerta."""
-    print ('El índice de Fernández Huerta es %5.2f' % indice)
+    con el índice de Velázquez Gaytán."""
+    print ('El índice de Velázquez Gaytán es %5.2f' % indice)
     print ('El nivel de legibilidad es', nivel)
     print (oraciones, 'oraciones')
     print (palabras, 'palabras')
@@ -31,8 +31,8 @@ def mostrar_resultados(indice, nivel, oraciones, palabras, silabas):
 
 def main():
     texto = leer_texto()
-    oraciones, palabras, silabas, indice = legibilidad.indice_FH(texto)
-    nivel = legibilidad.nivel_legibilidad_FH(indice)
+    oraciones, palabras, silabas, indice = legibilidad.indice_VG(texto)
+    nivel = legibilidad.nivel_legibilidad_VG(indice)
     mostrar_resultados(indice, nivel, oraciones, palabras, silabas)
 
 
