@@ -7,7 +7,7 @@ para calcular el índice de Velázquez Gaytán y para
 decidir el nivel de legibilidad del texto.
 """
 
-import legibilidad
+import legibilidad as l
 
 
 def leer_texto():
@@ -31,8 +31,8 @@ def mostrar_resultados(indice, nivel, oraciones, palabras, silabas):
 
 def main():
     texto = leer_texto()
-    oraciones, palabras, silabas, indice = legibilidad.indice_VG(texto)
-    nivel = legibilidad.nivel_legibilidad_VG(indice)
+    oraciones, palabras, silabas, indice = l.indice_VG(texto)
+    nivel = l.nivel_legibilidad_VG(indice)
     mostrar_resultados(indice, nivel, oraciones, palabras, silabas)
 
 
