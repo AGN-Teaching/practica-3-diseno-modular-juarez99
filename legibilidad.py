@@ -5,7 +5,7 @@ Funciones para calcular el índice de Velázquez Gaytán (utilizando el módulo 
 import analisis_texto
 
 
-def indice_VG(texto):
+def indice_legibilidad_VG(texto):
     """Calcula y devuelve el índice de Velázquez Gaytán del texto de entrada."""
     
     # Completar
