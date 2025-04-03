@@ -2,7 +2,7 @@
 Funciones para calcular el índice de Velázquez Gaytán (utilizando el módulo analisis_texto) y para decidir el nivel de legibilidad de un texto.
 """
 
-import analisis_texto
+import analisis_texto as at
 
 
 def indice_legibilidad_VG(texto):
