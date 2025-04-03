@@ -31,7 +31,7 @@ def mostrar_resultados(indice, nivel, oraciones, palabras, silabas):
 
 def main():
     texto = leer_texto()
-    oraciones, palabras, silabas, indice = l.indice_VG(texto)
+    oraciones, palabras, silabas, indice = l.indice_legibilidad_VG(texto)
     nivel = l.nivel_legibilidad_VG(indice)
     mostrar_resultados(indice, nivel, oraciones, palabras, silabas)
 
